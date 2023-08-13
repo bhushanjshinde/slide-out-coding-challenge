@@ -1,3 +1,19 @@
-body {
-  background: orange;
+/*body {*/
+/*  background: orange;*/
+/*}*/
+
+#styleMeButton {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #e040bb, #ff61e1, #ff974d); /* Gradient probably not perfect match with the image */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s;
+}
+
+#styleMeButton:hover {
+  transform: scale(1.05);      /* Was not the requirement, but added for the sake of completeness */
 }
